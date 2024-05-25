@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "CW BR Firma", sans-serif;
     background-color: #fff;
 }
 
@@ -19,7 +19,7 @@ body{
 /* Navbar container */
 .navbar {
     overflow: hidden;
-    font-family: Arial;
+    font-family: "CW BR Firma", sans-serif;
   }
   
   /* Links inside the navbar */
@@ -42,7 +42,7 @@ body{
     font-size: 16px; 
     border: none;
     outline: none;
-    color: rgb(92, 89, 89);
+    color: rgb(108, 130, 163);
     padding: 30px 28px;
     background-color: #fff;
   }
@@ -94,44 +94,43 @@ body{
     left: 85%;
     border:  1px solid rgb(41, 109, 227);
     border-radius: 10px;
-    background-color: rgb(41, 109, 227);
+    background-color: rgb(0, 102, 245);
     color: #fff;
     width: 12%;
     height: 45px;
     cursor: pointer;
-    font-size: 16px;
-    box-shadow: 5px 5px 10px 0px rgb(41, 109, 227);
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: 0 4px 6px 1px rgba(0, 102, 245, .18);
 }
 
-.title{
+.title1{
     position: absolute;
-    top: 50%;
-    left: 55%;
+    top: 40%;
+    left: 50%;
+    display: block;
+    color: rgb(8, 37, 82);
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "CW BR Firma", sans-serif;
 }
 
-.title h1{
-    color: #12123f;
-    font-size: 80px;
-    font-family: Arial;
-}
-
-.titlee{
+.title2{
     position: absolute;
+    display: block;
     top: 80%;
-    left: 55%;
-}
-.titlee h2{
-    color: #12123f;
-    font-size: 40px;
-    font-family: Arial;
-    font-weight: 50px;
+    left: 50%;
+    color:rgb(8, 37, 82);
+    font-size: 25px;
+    font-family: "CW BR Firma", sans-serif;
+    font-weight: 0;
     margin-bottom: 40px;
 }
 
 .text{
     position: absolute;
-    top: 90%;
-    left: 55%;
+    top: 95%;
+    left: 50%;
 }
 
 .text label{
@@ -147,13 +146,12 @@ body{
     color: #1a2e2c;
     padding: 5px 25px;
     background-color: #fff
-    
 }
 
 .submit button{
     position: absolute;
-    top: 90%;
-    left: 80%;
+    top: 95%;
+    left: 75%;
     border:  1px solid rgb(41, 109, 227);;
     border-radius: 10px;
     background-color: rgb(41, 109, 227);
@@ -161,8 +159,10 @@ body{
     width: 13%;
     height: 60px;
     cursor: pointer;
-    font-size: 16px;
-    box-shadow: 5px 5px 10px 0px rgb(41, 109, 227);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
 }
 
 #box1{
@@ -193,7 +193,1192 @@ body{
 
 #box2 p{
     text-align: center;
-    font-size: 16px;
-    color: rgb(179, 179, 243);
+    font-size: 14px;
+    color: rgb(108, 130, 163);
     padding-top: 30px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+#p1{
+    position: absolute;
+    top: 150%;
+    right: 60%;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 70px;
+    font-weight: 700;
+    opacity: 1;
+    margin-left: 20px;
+}
+#p1 p small{
+    font-size: 70px;
+    font-weight: 100;
+    font-style: italic;
+    opacity: 1;
+}
+
+#p2{
+    position: absolute;
+    top: 182%;
+    right: 65%;
+    font-size: 25px;
+    color: rgb(8, 37, 82);
+    display: block;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    opacity: 1;
+    margin-left: 20px;
+}
+
+#start button{
+    position: absolute;
+    top: 200%;
+    right: 80%;
+    border:  1px solid rgb(41, 109, 227);;
+    border-radius: 10px;
+    background-color: rgb(41, 109, 227);
+    color: #fff;
+    width: 20%;
+    height: 50px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+    opacity: 1;
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+    margin-right: -20px;
+}
+
+.barchart img{
+    position: absolute;
+    top: 150%;
+    left: 60%;
+    height: 100%;
+    width: 40%;
+}
+
+.barchartbox1{
+    position: absolute;
+    top: 205%;
+    left: 48%;
+    width: 250px;
+    height: 125px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+}
+
+.barchartbox1 h1{
+    position: absolute;
+    padding: 20px 20px;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.barchartbox1 p{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    margin: 15px;
+    letter-spacing: -0.27px;
+    line-height: 27.9px;
+    text-align:center ;
+    color: #8181c1;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.barchartbox2{
+    position: absolute;
+    top: 175%;
+    right: 21%;
+    width: 250px;
+    height: 125px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+}
+
+.barchartbox2 h1{
+    position: absolute;
+    padding: 20px 20px;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.barchartbox2 p{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    margin: 15px;
+    letter-spacing: -0.27px;
+    line-height: 27.9px;
+    text-align:center ;
+    color: #8181c1;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.barchartbox3{
+    position: absolute;
+    top: 150%;
+    right: 8%;
+    width: 250px;
+    height: 125px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgba(8, 37, 82, 0.04) 1px 3px 4px 0px; 
+}
+
+.barchartbox3 h1{
+    position: absolute;
+    padding: 10px 20px;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.barchartbox3 p{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    margin: 15px;
+    letter-spacing: -0.27px;
+    line-height: 27.9px;
+    text-align:center ;
+    color: #8181c1;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#p3{
+    position: absolute;
+    top: 270%;
+    right: 25%;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    opacity: 1;   
+}
+
+#p4{
+    position: absolute;
+    top: 290%;
+    right: 45%;
+    text-align:center ;
+    color: rgb(108, 130, 163);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+#num{
+    position: absolute;
+    top: 300%;
+    right: 40%;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma";
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 1; 
+}
+#num::first-letter{
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.dropdown2{
+    position: absolute;
+    top: 325%;
+    right: 55%;
+    color: rgb(23, 103, 222);
+    font-family: "CW BR Firma";
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.dropdown2 a{
+    display: block;
+    text-decoration: none;
+    color: rgb(23, 103, 222);
+    padding: 5px 5px;
+}
+.dropdown2 .content{
+    position: absolute;
+    font-size: 20px;
+    background-color: #fff;
+    min-width: 80px;
+    display: none;
+    border: 1px solid black;
+}
+
+.dropdown2:hover .content{
+    display: block;
+}
+
+.dropdown2 a:hover{
+    background-color: #2c2cb4;
+}
+
+.dropdown3{
+    position: absolute;
+    top: 325%;
+    right: 40%;
+    color: rgb(23, 103, 222);
+    font-family: "CW BR Firma";
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.dropdown3 a{
+    display: block;
+    text-decoration: none;
+    color: rgb(23, 103, 222);
+    padding: 5px 5px;
+}
+.dropdown3 .content{
+    position: absolute;
+    font-size: 20px;
+    background-color: #fff;
+    min-width: 80px;
+    display: none;
+    border: 1px solid black;
+}
+
+.dropdown3:hover .content{
+    display: block;
+}
+
+.dropdown3 a:hover{
+    background-color: #2c2cb4;
+}
+
+hr{
+    position: absolute;
+    top: 340%;
+    right: 20%;
+    width: 60%;
+}
+
+#p5{
+    position: absolute;
+    top: 350%;
+    right: 43%;
+    color: rgb(108, 130, 163);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 22px;
+}
+
+#num2{
+    position: absolute;
+    top: 360%;
+    right: 35%;
+    color: rgb(108, 130, 163);
+    font-family: "CW BR Firma";
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 1; 
+}
+#num2::first-letter{
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+#menu button{
+    position: absolute;
+    top: 385%;
+    right: 35%;
+    border:  1px solid #fff;
+    background-color: rgb(190, 211, 246);
+    color: rgb(41, 109, 227);
+    width: 25%;
+    height: 30px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 300;   
+}
+
+#p6{
+    position: absolute;
+    top: 395%;
+    right: 40%;
+    text-align:center ;
+    color: rgb(108, 130, 163);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+}
+
+#info{
+    position: absolute;
+    top: 405%;
+    right: 15%;
+    color: rgb(108, 130, 163);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+}
+
+#boxxtext p{
+    position: absolute;
+    top: 445%;
+    right: 55%;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    opacity: 1;
+    margin-left: 30px;   
+}
+
+.boxx1{
+    position: absolute;
+    top: 480%;
+    left: 3%;
+    width: 400px;
+    height: 250px;
+    border: 1px solid  rgb(0, 102, 245);
+    border-radius: 20px 20px 20px 20px; 
+}
+
+.boxx1 p{
+    color: rgb(0, 102, 245);
+    cursor: pointer;
+    display: block;
+    padding-top: 16px;
+    position: absolute;
+    text-align: center;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 1;
+    padding-top: 70px;
+}
+
+.boxx2{
+    position: absolute;
+    top: 480%;
+    right: 35%;
+    width: 400px;
+    height: 250px;
+    border: 1px solid rgb(0, 102, 245);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.boxx2 p{
+    color: rgb(0, 102, 245);
+    cursor: pointer;
+    display: block;
+    padding-top: 16px;
+    position: absolute;
+    text-align: center;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    opacity: 1;
+    padding-top: 70px;
+}
+
+
+.boxx3{
+    position: absolute;
+    top: 480%;
+    right: 3%;
+    width: 400px;
+    height: 250px;
+    border: 1px solid rgb(0, 102, 245);
+    border-radius: 20px 20px 20px 20px;
+}
+
+.boxx3 p{
+    color: rgb(0, 102, 245);
+    cursor: pointer;
+    display: block;
+    padding-top: 16px;
+    position: absolute;
+    text-align: center;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 40px;
+    font-weight: 600;  
+    opacity: 1;
+    padding-top: 70px;
+}
+
+.phone img{
+    position: absolute;
+    top: 550%;
+    right: 70%;
+}
+
+.phoneinfo{
+    position: absolute;
+    top: 550%;
+    right: 10%;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    opacity: 1; 
+}
+
+#phonesub1 h1{
+    position: absolute;
+    top: 570%;
+    right: 25%;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 25px;
+}
+
+#phonesub1 p{
+    position: absolute;
+    top: 575%;
+    right: 9%;
+    margin: 15px;
+    letter-spacing: -0.27px;
+    line-height: 27.9px;
+    text-align:center ;
+    color: #8181c1;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+}
+
+#phonesub2 h1{
+    position: absolute;
+    top: 590%;
+    right: 21%;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 25px;
+}
+
+#phonesub2 p{
+    position: absolute;
+    top: 595%;
+    right: 11.5%;
+    margin: 15px;
+    letter-spacing: -0.27px;
+    line-height: 27.9px;
+    text-align:center ;
+    color: #8181c1;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+}
+
+#phonesub3 h1{
+    position: absolute;
+    top: 610%;
+    right: 20%;
+    text-align:center ;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 25px;
+}
+
+#phonesub3 p{
+    position: absolute;
+    top: 615%;
+    right: 11%;
+    margin: 15px;
+    letter-spacing: -0.27px;
+    line-height: 27.9px;
+    text-align:center ;
+    color: #8181c1;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+}
+
+#signupnow button{
+    position: absolute;
+    top: 630%;
+    right: 30%;
+    border:  1px solid rgb(41, 109, 227);;
+    border-radius: 8px;
+    background-color: rgb(41, 109, 227);
+    color: #fff;
+    width: 13%;
+    height: 50px;
+    cursor: pointer;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 1;
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+    margin-right: -10px;
+}
+
+.container{
+    position: absolute;
+    background-color: #4242e6;
+    width: 100%;
+    height: 150vh;
+    top: 680%;
+}
+.container h1{
+    position: absolute;
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size:50px;
+    font-weight: 700;
+    opacity: 1; 
+    right: 60%;
+    top: 10%;
+    margin-left: 30px;
+}
+
+.container p{
+    position: absolute;
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 18px;
+    right: 60%;
+    top:30%;
+    margin-left: 30px;
+}
+
+.container a{
+    position: absolute;
+    color:rgba(255, 255, 255, 0.7);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 14px;
+    right: 90%;
+    top:40%;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.text-box1 h2{
+    position: absolute;
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 22px;
+    right: 80%;
+    top:45%;
+    padding-left: 60px;
+}
+
+.text-box1 p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 18px;
+    right: 70%;
+    top:50%;
+    padding-left: 40px;
+    
+}
+
+.text-box2 h2{
+    position: absolute;
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 22px;
+    right: 75%;
+    top:70%;
+    padding-right: 25px;
+}
+
+.text-box2 p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 18px;
+    right: 70%;
+    top:75%;
+    padding-left: 40px;   
+}
+
+.text-box3 h2{
+    position: absolute;
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 22px;
+    left: 50%;
+    top:45%;
+    padding-right: 25px;
+}
+
+.text-box3  p{
+    position: absolute;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 18px;
+    left: 50%;
+    top:50%;
+    
+    padding: 40px 40px;
+
+}
+
+
+#why h1{
+    position: absolute;
+    color: rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    left: 0%;
+    top:845%;
+    margin-left: 20px;
+}
+
+#why p{
+    position: absolute;
+    color: #5858a2;
+    font-family: "CW BR Firma", sans-serif;
+    font-size:50px;
+    font-weight: 700;
+    opacity: 1; 
+    left: 0%;
+    top: 855%;
+    margin-left: 20px;
+}
+
+.box-playstore{
+    position: absolute;
+    top: 880%;
+    left: 0%;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    border: 1px solid #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 40px; 
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+}
+
+.box-playstore h1{
+    position: absolute;
+    top: 10%;
+    padding-left: 30px; 
+    color:  rgb(8, 37, 82);
+    font-size: 40px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.box-playstore h2{
+    position: absolute;
+    top: 30%;
+    padding-left: 30px; 
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.box-playstore p{
+    position: absolute;
+    top: 40%;
+    padding: 20px 20px; 
+    color:  rgb(112, 141, 185);
+    font-size: 15px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.box-playstore a{
+    position: absolute;
+    color: #4f4ff8;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    top:80%;
+    padding-left: 30px; 
+    text-decoration: none;
+}
+
+.playstorebox{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    width: 120px;
+    height: 40px;
+    background-color:rgb(2, 43, 105);
+    border: 1px solid rgb(2, 43, 105);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.playstorebox h1{
+    position: absolute;
+    top: 20%;
+    right: 36%;
+    text-align:center ;
+    color:#fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.playstorebox h2{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    padding: 5px 5px;
+    text-align:center ;
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.box-appstore{
+    position: absolute;
+    top: 880%;
+    right: 0%;
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    border: 1px solid #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin-right: 40px; 
+    box-shadow: rgba(0, 102, 245, 0.18) 0px 4px 6px 1px;
+}
+
+.box-appstore h1{
+    position: absolute;
+    top: 10%;
+    padding-left: 30px; 
+    color:  rgb(8, 37, 82);
+    font-size: 40px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.box-appstore h2{
+    position: absolute;
+    top: 30%;
+    padding-left: 30px; 
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.box-appstore p{
+    position: absolute;
+    top: 40%;
+    padding: 20px 20px; 
+    color:  rgb(112, 141, 185);
+    font-size: 15px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.box-appstore a{
+    position: absolute;
+    color: #4f4ff8;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    top:80%;
+    padding-left: 30px; 
+    text-decoration: none;
+}
+
+.appstorebox{
+    position: absolute;
+    top: 10%;
+    right: 3%;
+    width: 120px;
+    height: 40px;
+    background-color:rgb(2, 43, 105);
+    border: 1px solid rgb(2, 43, 105);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.appstorebox h1{
+    position: absolute;
+    top: 5%;
+    right: 16%;
+    text-align:center ;
+    color:#fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 10px;
+    padding: 5px;
+    font-weight: 200;
+}
+
+.appstorebox h2{
+    position: absolute;
+    top: 35%;
+    right: 5%;
+    padding: 5px 5px;
+    text-align:center ;
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.container-box{
+    position: absolute;
+    background-color: rgb(0, 102, 245);
+    width: 95%;
+    height: 50vh;
+    top: 950%;
+    border-radius: 10px;
+    margin-left: 40px;
+    box-shadow: rgba(0, 103, 245, 0.3) 0px 59px 51px -34px; 
+}
+
+.container-box p{
+    position: absolute;
+    color: #fff;
+    font-family: "CW BR Firma", sans-serif;
+    font-size:40px;
+    font-weight: 700;
+    opacity: 1; 
+    right: 60%;
+    top: 40%;
+    padding-left: 90px;
+    
+}
+
+.textbox{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+.textbox label{
+    display: block;
+}
+
+.textbox input{
+    width: 200%;
+    height: 60px;
+    border:  1px solid rgb(90, 140, 212);
+    border-radius: 10px;
+    font-size: 16px;
+    color: #1a2e2c;
+    padding: 5px 25px;
+    background-color:  rgb(90, 140, 212);
+    appearance: auto;
+    
+}
+
+.signupbtn button{
+    position: absolute;
+    top: 42%;
+    left: 75%;
+    border:  1px solid #fff;
+    border-radius: 5px;
+    background-color: #fff;
+    color: rgb(8, 37, 82);
+    width: 13%;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer1 h1{
+    position: absolute;
+    top: 1020%;
+    left: 0%;
+    margin-left: 40px;
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.footer1 ul{
+    position: absolute;
+    top: 1030%;
+    left: 0%;
+    margin-left: 30px;
+    display: block;
+    list-style: none;
+}
+
+.footer1 ul li{
+    display: block;
+    margin-left: 10px;
+    padding: 10px 10px ;
+}
+
+.footer1 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(112, 141, 185);
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.footer2 h1{
+    position: absolute;
+    top: 1020%;
+    left: 25%;
+    margin-left: 40px;
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.footer2 ul{
+    position: absolute;
+    top: 1030%;
+    left: 25%;
+    margin-left: 30px;
+    display: block;
+    list-style: none;
+}
+
+.footer2 ul li{
+    display: block;
+    margin-left: 10px;
+    padding: 10px 10px ;
+}
+
+.footer2 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(112, 141, 185);
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.footer3 h1{
+    position: absolute;
+    top: 1020%;
+    left: 45%;
+    margin-left: 40px;
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.footer3 ul{
+    position: absolute;
+    top: 1030%;
+    left: 45%;
+    margin-left: 30px;
+    display: block;
+    list-style: none;
+}
+
+.footer3 ul li{
+    display: block;
+    margin-left: 10px;
+    padding: 10px 10px ;
+}
+
+.footer3 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(112, 141, 185);
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.footer4 h1{
+    position: absolute;
+    top: 1020%;
+    left: 65%;
+    margin-left: 40px;
+    color:  rgb(8, 37, 82);
+    font-size: 20px;
+    font-family: "CW BR Firma", sans-serif;
+}
+
+.footer4 ul{
+    position: absolute;
+    top: 1030%;
+    left: 65%;
+    margin-left: 30px;
+    display: block;
+    list-style: none;
+}
+
+.footer4 ul li{
+    display: block;
+    margin-left: 10px;
+    padding: 10px 10px ;
+}
+
+.footer4 ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color:rgb(112, 141, 185);
+    font-family: "CW BR Firma", sans-serif;
+}
+
+#hr{
+    position:absolute;
+    top: 1100%;
+    right: 2%;
+    width: 120%;
+}
+
+.icons{
+    text-align: left;
+    position: absolute;
+    top: 1105%;
+    margin-left: 20px;
+}  
+.icons a{
+    text-decoration: none;
+    margin-right: 10px;
+    color: rgba(8, 37, 82, 0.6);
+}
+
+.boxcowry{
+    position: absolute;
+    top: 1120%;
+    right: 3%;
+    width: 220px;
+    height: 60px;
+    background-color:rgb(255, 255, 255);
+    border: 1px solid rgba(8, 37, 82, 0.07);
+    border-radius: 10px;
+    box-shadow: rgba(8, 37, 82, 0.02) 1px 8px 12px 0px;
+}
+.boxcowry img{
+    font-family: "CW BR Firma";
+    font-size:10px;
+    top: 20%;
+    left: 10%;
+}
+
+.boxcowry h1{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    text-align:center ;
+    color:rgb(8, 37, 82);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.boxcowry h2{
+    position: absolute;
+    top: 30%;
+    left: 24%;
+    margin: 15px;
+    text-align:center ;
+    color: rgba(8, 37, 82, 0.6);
+    font-family: "CW BR Firma", sans-serif;
+    font-size: 10px;
+}
+
+.ng{
+    position:absolute;
+    top:1120% ;
+    font-size: 13px;
+    font-weight: 400;
+    color:rgb(8, 37, 82);
+    font-family: "CW BR Firma";
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.us{
+    position:absolute;
+    top:1125% ;
+    font-size: 13px;
+    font-weight: 400;
+    color:rgb(8, 37, 82);
+    font-family: "CW BR Firma";
+    margin-left: 20px;
+    font-weight: 400;
+}
+
+.p1{
+    position:absolute;
+    top:1138% ;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgba(8, 37, 82, 0.48);
+    font-family: "CW BR Firma" sans-serif;
+    margin-left: 20px; 
+    margin-right: 20px;
+}
+
+.p2{
+    position:absolute;
+    top:1145% ;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgba(8, 37, 82, 0.48);
+    font-family: "CW BR Firma" sans-serif;
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.p2 a{
+    color: #4f4ff8;
+    font-family: "CW BR Firma", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.p3{
+    position:absolute;
+    top:1155% ;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgba(8, 37, 82, 0.48);
+    font-family: "CW BR Firma" sans-serif;
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.p4{
+    position:absolute;
+    top:1160% ;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgba(8, 37, 82, 0.48);
+    font-family: "CW BR Firma" sans-serif;
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.p4 a{
+    color: #4f4ff8;
+    font-family: "CW BR Firma", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.p5{
+    position:absolute;
+    top:1165% ;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgba(8, 37, 82, 0.48);
+    font-family: "CW BR Firma" sans-serif;
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.p6{
+    position:absolute;
+    top:1170% ;
+    font-size: 12px;
+    font-weight: 400;
+    color:rgba(8, 37, 82, 0.48);
+    font-family: "CW BR Firma" sans-serif;
+    margin-left: 20px; 
+    margin-right: 20px;
+    font-weight: 400;
 }
